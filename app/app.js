@@ -1,7 +1,7 @@
 const express = require("express");
 const app = express();
 const PORT = 3000;
-const home = require("./routes/home");
+const home = require("./src/routes/home");
 
 //앱 세팅
 app.set("views","./views");
